@@ -1,0 +1,23 @@
+{
+  "name": "semana3-exercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercicios-for.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maaysiq/semana3-exercicio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maaysiq/semana3-exercicio/issues"
+  },
+  "homepage": "https://github.com/maaysiq/semana3-exercicio#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

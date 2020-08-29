@@ -1,3 +1,43 @@
+// 1) crie uma função para cada uma das operações básicas (soma, subtração, multiplicação e divisão), cada uma delas recebendo 2 números como parâmetros e retornando o resultado
+function soma (numero1, numero2) {
+    return numero1 + numero2   
+ }
+ function subtracao (numero1, numero2) {
+     return numero1 - numero2
+ }
+ function multiplicacao ( numero1, numero2) {
+     return numero1 * numero2
+ }
+ function divisao (numero1, numero2) {
+     return numero1 / numero2
+ }
+
+ console.log (soma (4, 8))
+ console.log (subtracao (4, 8))
+ console.log (multiplicacao (4, 8))
+ console.log (divisao (4, 8))
+
+
+ // 2) para esse exercício, as funções de multiplicação e divisão não devem aceitar valores iguais a 0 (zero). Adicione esta lógica nas funções.
+ function multiplicacaoSemZero (numero1, numero2){
+    if(numero1 ===0 || numero2 ===0){
+        return `não queremos zero`
+    }
+    return numero1 * numero2
+}
+
+console.log (multiplicacaoSemZero (5,9))
+
+function divisaoSemZero (numero1, numero2){
+    if(numero1 ===0 || numero2 ===0){
+        return `não queremos zero`
+    }
+    return numero1 / numero2
+}
+
+console.log (divisaoSemZero(10, 5))
+
+
 // 4) utilizando as funções de soma e multiplicação dos exercícios anteriores, crie uma função que resolva a conta 
 //36325 * (9824 + 777).*/
 
@@ -32,7 +72,7 @@ function verificaPalindro (string)
     }
     
 }
-
+console.log (verificaPalindro("Rir, o breve verbo rir."))
 
 // 10) crie uma função que receba duas strings como parâmetros e retorne a string com a maior quantidade de caracteres.
 //Por exemplo, se passarmos como parâmetro "banana" e "chocolate" a função deve retornar "chocolate"*/
